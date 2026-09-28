@@ -1,0 +1,4 @@
+interface:
+  display_name: "Team Leader"
+  short_description: "Grill requirements, lead agents, ship a linked PR"
+  default_prompt: "Use $team-leader to clarify my feature with $grilling, save its PRD in Linear, coordinate parallel subagents, and open a PR linked to Linear."
