@@ -26,6 +26,10 @@ Do not change code merely to satisfy a comment. Check whether the proposed chang
 - **Incorrect:** Keep the correct code. Explain the specific premise that fails and cite the code, requirement, or test that demonstrates it. Be concise and respectful; avoid dismissing the reviewer or claiming certainty beyond the evidence.
 - **Unclear:** Ask a focused question in the thread when the answer is needed to finish that concern. Do not guess or silently close it.
 
-When the task includes updating the GitHub PR, publish verified fixes to its branch and reply to each handled thread with what changed or why no change is warranted. Mark a thread resolved only after its concern is actually settled and the repository workflow permits it. Leave substantive disagreements or unanswered questions open for the reviewer. Do not merge the PR or dismiss a review unless separately requested.
+When the task includes updating the GitHub PR, publish verified fixes to its branch and reply to each handled thread with what changed or why no change is warranted. Do not merge the PR or dismiss a review unless separately requested.
 
-Finish by reconciling the live PR state: new comments, current head, thread statuses, and CI. Report which concerns were fixed, rejected with reasons, already addressed, or remain open; include validation results and concrete blockers. Do not claim complete resolution while a known actionable concern remains.
+## Finish by resolving review conversations
+
+At the end of the PR update, reconcile the live PR state: new comments, current head, thread statuses, and CI. Then explicitly mark every settled review conversation (review thread) as resolved using the GitHub integration or `gh`; posting a reply alone does not complete the task. This includes verified fixes published to the PR branch, concerns already addressed at the current head, and incorrect claims answered with evidence when no substantive disagreement remains. Resolve threads only when the repository workflow permits it. Leave substantive disagreements, unanswered questions, and unverified fixes open.
+
+Fetch the thread statuses again to confirm resolution succeeded. If access or tooling prevents resolving a settled thread, report that thread and the blocker instead of claiming it is resolved. Report which concerns were fixed, rejected with reasons, already addressed, or remain open; include validation results. Do not claim complete resolution while a known actionable concern remains.
