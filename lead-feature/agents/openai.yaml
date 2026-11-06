@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Feature"
+  short_description: "Grill a PRD, lead weighted agents in worktrees, ship a Linear-linked PR"
+  default_prompt: "Use $lead-feature to grill my feature into a PRD, save it in Linear, lead parallel teammates in worktrees on sized models, review and integrate their work, and open a PR linked to Linear."
